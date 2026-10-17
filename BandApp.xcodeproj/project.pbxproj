@@ -1,0 +1,185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 = {isa = PBXBuildFile; fileRef = 100000000000000000000201; };
+		100000000000000000000102 = {isa = PBXBuildFile; fileRef = 100000000000000000000202; };
+		100000000000000000000103 = {isa = PBXBuildFile; fileRef = 100000000000000000000203; };
+		100000000000000000000104 = {isa = PBXBuildFile; fileRef = 100000000000000000000204; };
+		100000000000000000000105 = {isa = PBXBuildFile; fileRef = 100000000000000000000205; };
+		100000000000000000000123 = {isa = PBXBuildFile; fileRef = 100000000000000000000238; };
+		100000000000000000000124 = {isa = PBXBuildFile; fileRef = 100000000000000000000239; };
+		100000000000000000000115 = {isa = PBXBuildFile; fileRef = 100000000000000000000225; };
+		100000000000000000000116 = {isa = PBXBuildFile; fileRef = 100000000000000000000227; };
+		100000000000000000000117 = {isa = PBXBuildFile; fileRef = 100000000000000000000229; };
+		100000000000000000000118 = {isa = PBXBuildFile; fileRef = 100000000000000000000231; };
+		100000000000000000000119 = {isa = PBXBuildFile; fileRef = 100000000000000000000233; };
+		100000000000000000000120 = {isa = PBXBuildFile; fileRef = 100000000000000000000235; };
+		100000000000000000000121 = {isa = PBXBuildFile; fileRef = 100000000000000000000236; };
+		100000000000000000000122 = {isa = PBXBuildFile; fileRef = 100000000000000000000237; };
+/* End PBXBuildFile section */		100000000000000000000106 = {isa = PBXBuildFile; fileRef = 100000000000000000000207; };
+		100000000000000000000107 = {isa = PBXBuildFile; fileRef = 100000000000000000000208; };
+		100000000000000000000108 = {isa = PBXBuildFile; fileRef = 100000000000000000000220; };
+		100000000000000000000109 = {isa = PBXBuildFile; fileRef = 100000000000000000000221; };
+		100000000000000000000110 = {isa = PBXBuildFile; fileRef = 100000000000000000000211; };
+		100000000000000000000111 = {isa = PBXBuildFile; fileRef = 100000000000000000000213; };
+		100000000000000000000112 = {isa = PBXBuildFile; fileRef = 100000000000000000000215; };
+		100000000000000000000113 = {isa = PBXBuildFile; fileRef = 100000000000000000000217; };
+		100000000000000000000114 = {isa = PBXBuildFile; fileRef = 100000000000000000000219; };
+
+
+/* Begin PBXFileReference section */
+		100000000000000000000201 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandApp.swift; sourceTree = "<group>"; };
+		100000000000000000000202 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		100000000000000000000203 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandData.swift; sourceTree = "<group>"; };
+		100000000000000000000204 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMetricStore.swift; sourceTree = "<group>"; };
+		100000000000000000000205 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSyncClient.swift; sourceTree = "<group>"; };
+		100000000000000000000238 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringEngine.swift; sourceTree = "<group>"; };
+		100000000000000000000239 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBandSyncClient.swift; sourceTree = "<group>"; };
+		100000000000000000000206 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000222 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		100000000000000000000223 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		100000000000000000000224 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		100000000000000000000225 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		100000000000000000000226 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		100000000000000000000227 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		100000000000000000000228 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		100000000000000000000229 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		100000000000000000000230 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		100000000000000000000231 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		100000000000000000000232 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		100000000000000000000233 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		100000000000000000000234 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		100000000000000000000235 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		100000000000000000000236 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		100000000000000000000237 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */		100000000000000000000207 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeepooBandSyncClient.swift; sourceTree = "<group>"; };
+		100000000000000000000208 = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VeepooBleSDK.framework; sourceTree = "<group>"; };
+		100000000000000000000209 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		100000000000000000000210 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		100000000000000000000211 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		100000000000000000000212 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		100000000000000000000213 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		100000000000000000000214 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		100000000000000000000215 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		100000000000000000000216 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		100000000000000000000217 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		100000000000000000000218 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		100000000000000000000219 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		100000000000000000000220 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		100000000000000000000221 = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000301 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000107, 100000000000000000000108, 100000000000000000000109, 100000000000000000000121, 100000000000000000000122); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000401 = {
+			isa = PBXGroup;
+			children = (100000000000000000000402, 100000000000000000000403, 100000000000000000000404, 100000000000000000000405, 100000000000000000000407);
+			sourceTree = "<group>";
+		};
+		100000000000000000000402 = {
+			isa = PBXGroup;
+			children = (100000000000000000000201, 100000000000000000000202, 100000000000000000000207);
+			path = BandApp;
+			sourceTree = "<group>";
+		};
+		100000000000000000000403 = {
+			isa = PBXGroup;
+			children = (100000000000000000000203, 100000000000000000000204, 100000000000000000000205, 100000000000000000000238, 100000000000000000000239);
+			name = BandCore;
+			path = Sources/BandCore;
+			sourceTree = "<group>";
+		};
+		100000000000000000000404 = {
+			isa = PBXGroup;
+			children = (100000000000000000000206);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000408 = {
+			isa = PBXGroup;
+			children = (100000000000000000000222, 100000000000000000000223, 100000000000000000000224, 100000000000000000000225, 100000000000000000000226, 100000000000000000000227, 100000000000000000000228, 100000000000000000000229, 100000000000000000000230, 100000000000000000000231, 100000000000000000000232, 100000000000000000000233, 100000000000000000000234, 100000000000000000000235);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */		100000000000000000000405 = {
+			isa = PBXGroup;
+			children = (100000000000000000000208, 100000000000000000000406, 100000000000000000000408);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		100000000000000000000406 = {
+			isa = PBXGroup;
+			children = (100000000000000000000209, 100000000000000000000210, 100000000000000000000211, 100000000000000000000212, 100000000000000000000213, 100000000000000000000214, 100000000000000000000215, 100000000000000000000216, 100000000000000000000217, 100000000000000000000218, 100000000000000000000219);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		100000000000000000000407 = {
+			isa = PBXGroup;
+			children = (100000000000000000000220, 100000000000000000000221, 100000000000000000000236, 100000000000000000000237);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000501 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000702;
+			buildPhases = (100000000000000000000601, 100000000000000000000301);
+			buildRules = ();
+			dependencies = ();
+			name = BandApp;
+			productName = BandApp;
+			productReference = 100000000000000000000206;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000502 = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2600; TargetAttributes = {100000000000000000000501 = {CreatedOnToolsVersion = 26.2; ProvisioningStyle = Automatic; }; }; };
+			buildConfigurationList = 100000000000000000000701;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 100000000000000000000401;
+			productRefGroup = 100000000000000000000404;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (100000000000000000000501);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000601 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (100000000000000000000101, 100000000000000000000102, 100000000000000000000103, 100000000000000000000104, 100000000000000000000105, 100000000000000000000106, 100000000000000000000110, 100000000000000000000111, 100000000000000000000112, 100000000000000000000113, 100000000000000000000114, 100000000000000000000115, 100000000000000000000116, 100000000000000000000117, 100000000000000000000118, 100000000000000000000119, 100000000000000000000120, 100000000000000000000123, 100000000000000000000124);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000801 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		100000000000000000000802 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+		100000000000000000000803 = {isa = XCBuildConfiguration; buildSettings = {INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Band syncs your steps, sleep, and calorie estimates from your Bluetooth band."; FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Vendor"; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Band; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.oemband.prototype; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		100000000000000000000804 = {isa = XCBuildConfiguration; buildSettings = {INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Band syncs your steps, sleep, and calorie estimates from your Bluetooth band."; FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Vendor"; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Band; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.oemband.prototype; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000701 = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000801, 100000000000000000000802); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		100000000000000000000702 = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000803, 100000000000000000000804); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000502;
+}
